@@ -17,5 +17,10 @@ public class PruevaGit {
         for (int i = 0; i < 10; i++) {
             System.out.println("com.schumager.pruevagit.PruevaGit.main() "+i);
         }
+        int j=0;
+        while(j<10){
+            System.out.print("numero j = "+j);
+            --j;
+        }
     }
 }
