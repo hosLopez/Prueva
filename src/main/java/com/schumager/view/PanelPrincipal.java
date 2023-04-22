@@ -53,6 +53,11 @@ public class PanelPrincipal extends javax.swing.JPanel {
         jToggleButton1.setFocusable(false);
         jToggleButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jToggleButton1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
         jToolBar1.add(jToggleButton1);
 
         add(jToolBar1, java.awt.BorderLayout.PAGE_START);
@@ -65,6 +70,12 @@ public class PanelPrincipal extends javax.swing.JPanel {
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(this,"hola Mundo");
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+        // TODO add your handling code here:
+            jButton1.setEnabled(!jButton1.isEnabled());     
+        
+    }//GEN-LAST:event_jToggleButton1ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
