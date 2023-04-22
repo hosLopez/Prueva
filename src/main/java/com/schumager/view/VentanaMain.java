@@ -38,9 +38,7 @@ public class VentanaMain extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(panelPrincipal1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 272, Short.MAX_VALUE))
+            .addComponent(panelPrincipal1, javax.swing.GroupLayout.DEFAULT_SIZE, 310, Short.MAX_VALUE)
         );
 
         pack();

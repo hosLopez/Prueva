@@ -4,6 +4,11 @@
 
 package com.schumager.pruevagit;
 
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Hos
@@ -22,5 +27,10 @@ public class PruevaGit {
             System.out.println("numero j = "+j);
             ++j;
         }
+        JFrame ventana = new JFrame();
+        ventana.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        
+        ventana.setSize(300,300);
+        ventana.setVisible(true);
     }
 }

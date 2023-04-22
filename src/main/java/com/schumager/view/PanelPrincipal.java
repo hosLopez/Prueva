@@ -4,6 +4,8 @@
  */
 package com.schumager.view;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Schumager
@@ -29,6 +31,7 @@ public class PanelPrincipal extends javax.swing.JPanel {
         jToolBar1 = new javax.swing.JToolBar();
         jButton1 = new javax.swing.JButton();
         jToggleButton1 = new javax.swing.JToggleButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setLayout(new java.awt.BorderLayout());
 
@@ -53,15 +56,20 @@ public class PanelPrincipal extends javax.swing.JPanel {
         jToolBar1.add(jToggleButton1);
 
         add(jToolBar1, java.awt.BorderLayout.PAGE_START);
+
+        jPanel1.setBackground(new java.awt.Color(204, 255, 204));
+        add(jPanel1, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this,"hola Mundo");
     }//GEN-LAST:event_jButton1ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JToolBar jToolBar1;
     // End of variables declaration//GEN-END:variables
