@@ -19,8 +19,8 @@ public class PruevaGit {
         }
         int j=0;
         while(j<10){
-            System.out.print("numero j = "+j);
-            --j;
+            System.out.println("numero j = "+j);
+            ++j;
         }
     }
 }
